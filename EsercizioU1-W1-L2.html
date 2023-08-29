@@ -43,16 +43,23 @@
           <h2>Come creare un template per i post di Mario Rossi</h2>
           <h4>(publicato il 25-10-2020)</h4>
           <p>
-            La prima cosa da fare è suddividere in blocchi logici la pagina,
-            identificando le parti comuni da applicare a tutte le pagine. Le
-            varie aree saranno quindi suddivise in:
+            La prima cosa da fare è suddividere in
+            <strong>blocchi logici</strong> la pagina, identificando le parti
+            comuni da applicare a tutte le pagine.
           </p>
+          <p>Le varie aree saranno quindi suddivise in:</p>
           <ul>
-            <li>Contenuti di intestazionedel tag header</li>
             <li>
-              Contenuti centrali variabili del tag main (corpo principale)
+              Contenuti di intestazionedel tag <code>&lt;header&gt;</code>
             </li>
-            <li>Contenuti di fine pagina comuni, da inserire nel tag footer</li>
+            <li>
+              Contenuti centrali variabili del tag
+              <code>&lt;main&gt;</code> (corpo principale)
+            </li>
+            <li>
+              Contenuti di fine pagina comuni, da inserire nel tag
+              <code>&lt;footer&gt;</code>
+            </li>
           </ul>
           <p>Formattazione del codice</p>
           <p>
@@ -112,21 +119,25 @@
           </table>
         </section>
         <section>
+          <br />
           <p>
-            Un test di validazione potrà essere fatto tramite il tool online
-            <a href="#">-LINK ESTERNO-</a> dedicato allo scopo. Una volta
-            ottimizzato il tutto, avremo raggiunto il nostro obiettivo ad essere
-            stati dei veri developers come loro:
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/WuXnbwEQd94?si=rpPaDk8ksZUkgXN0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+            Un test di validazione potrà essere fatto tramite il
+            <a href="#">tool online</a> dedicato allo scopo.
           </p>
+          <p>
+            Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo
+            ad essere stati dei veri developers come loro:
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/_mvNVQ2pjlI?si=glcWrTZzTamlXwve"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <!-- <iframe> codice copiato su you tube facendo condividi->Incorpora->copia -->
         </section>
         <section>
           <br />
@@ -136,11 +147,17 @@
             Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
             nostra newsletter:
           </p>
-          <div><label for="email">Inserisci la mail:</label></div>
-          <div><input type="email" id="email" /></div>
-          <div>
+          <form>
+            <!-- <form> modulo di invio delle informazioni -->
+            <label for="email">Inserisci la mail:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="mario@rossi.it"
+              required
+            />
             <button type="submit">Iscriviti!</button>
-          </div>
+          </form>
         </section>
       </main>
 
@@ -174,13 +191,15 @@
         <br />
         <br />
         <br />
-        <br />
-        <p>Blog Epicode @2023</p>
-        <p>
+        <!--spazio tra paragrafi-->
+        <hr />
+        <!-- riga di separazione-->
+        <p>Blog <a href="https://epicode.com/it/">EPICODE</a> @2023</p>
+        <address>
           Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
           Luigi Eiunaudi 2 - Milano P.IVA 00112233.
-        </p>
-        <p>info@epicode.school <a href="https://epicode.com/it/">EPICODE</a></p>
+          <a href="mailto:info@epicode.school">info@epicode.school</a>
+        </address>
       </footer>
     </div>
   </body>
